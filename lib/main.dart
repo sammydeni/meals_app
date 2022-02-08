@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
         textTheme: ThemeData.light().textTheme.copyWith(
             bodyText1: const TextStyle(
               color: Color.fromRGBO(20, 51, 5, 1),
+              fontWeight: FontWeight.bold,
             ),
             bodyText2: const TextStyle(
               color: Color.fromRGBO(20, 51, 5, 1),
